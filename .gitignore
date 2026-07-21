@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Generated data
+data/processed/*
+data/dashboard/*
+data/database/*
+!data/processed/.gitkeep
+!data/dashboard/.gitkeep
+!data/database/.gitkeep
+
+# Generated reports and artifacts
+reports/*
+artifacts/*
+!reports/.gitkeep
+!artifacts/.gitkeep
+
+# Logs
+*.log
+
+# Environment variables
+.env

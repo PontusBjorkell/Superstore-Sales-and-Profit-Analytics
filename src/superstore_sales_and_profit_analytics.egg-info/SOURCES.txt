@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/superstore_analytics/__init__.py
+src/superstore_sales_and_profit_analytics.egg-info/PKG-INFO
+src/superstore_sales_and_profit_analytics.egg-info/SOURCES.txt
+src/superstore_sales_and_profit_analytics.egg-info/dependency_links.txt
+src/superstore_sales_and_profit_analytics.egg-info/requires.txt
+src/superstore_sales_and_profit_analytics.egg-info/top_level.txt
