@@ -21,6 +21,13 @@ PROCESSED_DATA_PATH = PROCESSED_DATA_DIR / "superstore_clean.csv"
 DATA_QUALITY_REPORT_PATH = REPORTS_DIR / "data_quality_summary.csv"
 DATABASE_PATH = DATABASE_DIR / "superstore.db"
 
+SCHEMA_SQL_PATH = SQL_DIR / "create_schema.sql"
+VIEWS_SQL_PATH = SQL_DIR / "create_views.sql"
+
+DATABASE_VALIDATION_REPORT_PATH = (
+    REPORTS_DIR / "database_validation.csv"
+)
+
 
 def create_output_directories() -> None:
     """Create all directories used for generated outputs."""
